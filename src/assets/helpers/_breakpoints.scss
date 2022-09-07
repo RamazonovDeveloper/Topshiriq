@@ -1,0 +1,24 @@
+// @import './mixins';
+
+@mixin container-size($w){
+    .container{
+        max-width: $w;
+    }
+}
+
+@include xl{
+    @include container-size(960px)
+} 
+
+@include lg{
+    @include container-size(720px)
+}
+
+@include md{
+    @include container-size(540px)
+}
+
+@include sm{
+    @include container-size(100%)
+}
+
