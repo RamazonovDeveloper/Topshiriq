@@ -6,6 +6,7 @@ import Start from "./assets/components/Start";
 function App() {
   return (
     <div className="App">
+      {/* Main part */}
       <Navbar/>
       <Start/>
     </div>
